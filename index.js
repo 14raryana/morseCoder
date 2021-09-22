@@ -28,11 +28,11 @@ var morseAlphabet = {
     90: "--.."
 }
 
-// function hello() {
-//     var inputText = document.getElementById("inputText").value;
-//     for(var i = 0; i < inputText.length; i++) {
-//         var shit = inputText.charCodeAt(i);
-//         console.log(shit);
-//     }
-// }
+function hello() {
+    var inputText = document.getElementById("inputText").value;
+    for(var i = 0; i < inputText.length; i++) {
+        var shit = inputText.charCodeAt(i);
+        console.log(shit);
+    }
+}
 
