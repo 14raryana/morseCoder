@@ -5,9 +5,12 @@
     </head>
 
     <body>
-        <script type="text/javascript" src="./index.js"></script>
+        
         <label for="inputText">I will translate anything from english into morse code for you!</label><br />
         <textarea style="width: 50%; height: 100px;" id="inputText" placeholder="Type in english and watch it be converted to Morse Code"></textarea><br />
-        <button id="translate" onclick="hello()">Translate</button>
+        <button id="translate" onclick="hello()">Translate</button><br />
+
+        <textarea id="translatedText" readonly style="width: 50%; height: 100px;"></textarea>
+        <script type="text/javascript" src="./index.js"></script>
     </body>
 </html>
